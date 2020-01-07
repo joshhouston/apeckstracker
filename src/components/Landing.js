@@ -18,7 +18,7 @@ class Landing extends Component{
 
     test(){
         axios
-            .get(`https://api.mozambiquehe.re/bridge?platform=${this.state.platform}&player=${this.state.username}&auth=X1EOqOa6Vpeducoza5th`)
+            .get(`https://api.mozambiquehe.re/bridge?platform=${this.state.platform}&player=${this.state.username}&auth=AUTHKEY`)
             .then(response => {
                 console.log(response)
             })
